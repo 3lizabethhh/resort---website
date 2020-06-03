@@ -1,0 +1,186 @@
+<!Doctype html>
+<html>
+    <head>
+        
+        <!--Link to External Javascript & CSS Files -->
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/blocks.css">
+        <link rel="stylesheet" href="css/resp-styles.css" type="text/css">    
+  
+        <!--Set Tab Title -->
+        <title> Sunshine Resort - Welcome </title>
+    </head>
+    
+    <!--Add Listener for Enhanced Parallax and ScrollFire -->
+    <body onscroll="scroll();">
+       
+        <!--Covid Statement Box-->
+        <div class="covid-statement" id="covid-box"> 
+        
+        <a>In response to the COVID-19 pandemic, Sunshine Resort will be reducing functional capacity and has implemented an extensive hygiene policy for travellers.</a>      
+        
+        <div class= "covid-x-right-align"  onClick="closeCovid()"> X </div>  
+        
+        </div>
+        
+        <!--Green Resort Banner-->
+        <div class="banner" id="banner-box">Sunshine Resort</div>
+        
+        <!--Enhanced Parallax Background Image-->
+        <section id="topSection">
+             <div class="parallax-img" id="parallax"></div>
+        </section>
+         
+        <!--Wrap 5 Sections -->
+        <div class="wrapper">
+            
+             
+            <!--ABOUT SECTION -->
+            <section id="aboutSection">
+                
+            <!--Subheader -->
+            <h1 align="center" class= "subheader" >About</h1>
+
+            <!--Description -->
+            <div class="ib i3">
+            <p> Located on the beachfront and direct access to the Golden Golf Club, this family friendly resort is ideal for day time lounging and travellers seeking a private ambience alongside the sea. The grounds is studded with beautiful palmtrees. Sunshine offers restuarants that serve 5-star international cuisine. There are highly personalised services including massages,lake-style pools and suite service. There is is an extensive selection for entertainment programme available to all visitors. There is a romantic gazebo located next to the sea next to the BlueWater Convention Center, making it a perfect option for professional events and ceremonies on the beautiful beaches of Cuba.</p>
+            </div>
+            
+            <!-- Images --> 
+            <div class="ib i4" id="about-middle-img"><img src="images/waterHouses.jpeg"/></div>
+            <div class="ib i4">  <img src="images/food.jpeg"/></div>
+            
+            </section>
+
+            <!--SLOGAN SECTION -->
+            <section id="sloganSection">
+            
+            <!--Subheader -->
+            <h1 align="center" class= "subheader">Slogan</h1>
+
+            <div>
+                <!--Slogan Image in 2 Sizes for @media-->
+                <div class="sloganImage" ><img src="images/slogan.jpg" /></div>
+                <div class="sloganImage hide" ><img src="images/sloganSmall.jpg" /></div>
+            </div>
+
+            </section>
+
+            <!--SERVICES SECTION -->
+             <section id="servicesSection">
+                                      
+                <!--Subheader -->
+                <h1 align="center" class= "subheader">Services</h1>
+                
+                 <!--Service 1:SPA -->
+                 <section class="ib ic outline">
+                      <h3 class="service-header">Spa</h3>  
+                      <img src="images/massage.jpeg" />
+                      <p class="service-content"> Sunshine Resort offers it's guests superb spa services at The Oasis Spa, a serene oasis of ultimate wellbeing, surrounded by sophisticated luxury. A fabulous world of exotic views and settings combined with the sapphire-blue and warm winds from the sea. Services include massages,facial treatments, beauty parlor and sauna rentals!</p>
+                </section>
+                
+                <!--Service 2:PADDLEBOARD-->
+                <section class="ib ic outline ">
+                    <h3 class="service-header">Paddleboard Service</h3>
+                    <img src="images/paddleBoards.jpeg"/>
+                    <p class="service-content"> Want to get into the water but don't want to get soaked? Take a paddle board lesson in a group or individually! Paddleboard rentals and lessons are available on a per-hour basis. Enjoy the blue waters while soaking up the sun.</p>
+                </section>
+                 
+                <!--Service 3: PROGRAMMING-->
+                 <section class="ib ic outline">
+                     <h3 class="service-header" >Nightly Programming</h3>
+                     <img src="images/Concerts.jpeg"/>
+                     <p class="service-content"> Want to experience a night full of music and dancing? Nightly coffee houses, concerts, dances and art gatherings are hosted at the Hudson Club House! Enjoy a beach side camp fire with a loved one or friends.</p>
+                </section>
+           
+            </section>
+
+            <!--ACCOUNT SECTION -->
+            <div id="accountSection">
+                     
+                <!--Subheader -->
+                <h1 align="center" class= "subheader">Account</h1>
+                
+                <!--Login Form -->
+                <div id="login"  class="form">
+                    <section class="account-outline">
+                     <form >
+                        <h4>LOGIN</h4>
+                        <label for="username">Username:</label>
+                        <input type="text" class="textbox" id="usernameInput">
+        
+                        <label for="password">Password:</label>
+                        <input type="text" class="textbox" id="passwordInput">
+        
+                        <button type="button" class="login-btn" onClick="login()" onmouseout="resetShake()">Login</button>              
+                     </form>
+                     </section>
+                 </div>
+                 
+                <!--Registration Form-->
+                 <div id="registration" class="form no-display"> 
+                      <section class="account-outline">
+                     <form >
+                        <h4>REGISTER</h4>
+                        <label for="regUsername">Username:</label>
+                        <input type="text" class="textbox" id="regUsernameInput">
+        
+                        <label for="regPassword">Password:</label>
+                        <input type="text" class="textbox" id="regPasswordInput">
+                         
+                             <label for="regConfirmPassword">Confirm Password:</label>
+                        <input type="text" class="textbox" id="regConfirmPasswordInput">
+        
+                        <button type="button" class="login-btn" onClick="register()" onmouseout="resetShake()">Register</button>              
+                     </form>
+                     </section>
+                </div>
+                 
+                <!--Link to Toggle Between Forms -->
+                 <div class="form toggle-link" onClick="switchEntryPoint()" id=switchEntryLink> <a href="#0" id= "switchEntryText">No Account? Register now!</a> </div>
+            </div>
+
+             <!--IMAGE REFERENCES SECTION -->
+             <section id="referencesSection">
+                         
+            <!--Subheader -->
+            <h1 align="center" class= "subheader">References</h1>
+            
+            <ul>
+           
+              <li>
+                <a href="https://www.pexels.com/photo/beach-chairs-coconut-trees-hut-idyllic-261204/" target="_blank">Welcome:Background</a>
+              </li>
+              
+              <li>
+                <a href=" https://www.pexels.com/photo/cottages-in-the-middle-of-beach-753626/" target="_blank">About: Houses</a>
+              </li>
+            
+              <li>
+                <a href=" https://www.pexels.com/photo/assorted-cooked-food-on-tray-2736387/" target="_blank">About: Food</a>
+              </li> 
+             
+              <li>
+                <a href=" https://www.pexels.com/photo/group-of-people-on-brown-sand-1142984/" target="_blank">Slogan: Sand Masking Clip</a>
+              </li> 
+             
+              <li>
+              <a href=" https://www.pexels.com/photo/topless-woman-lying-on-bed-getting-massage-3757952/" target="_blank">Services: Spa</a>
+              </li> 
+            
+              <li>
+                <a href=" https://www.pexels.com/photo/yellow-and-red-surfboards-near-blue-calm-body-of-water-699955/ " target="_blank">Services: Paddleboards</a>
+              </li> 
+                
+              <li>
+              <a href=" https://www.pexels.com/photo/crowd-in-front-of-people-playing-musical-instrument-during-nighttime-196652/" target="_blank">Services: Night Events</a>
+              </li>
+             
+           </ul>
+                 
+            </section>
+        </div> 
+
+
+    </body>

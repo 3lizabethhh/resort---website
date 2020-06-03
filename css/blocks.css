@@ -1,0 +1,35 @@
+/* From Bryan Sarlo's Course Content */
+.wrapper {
+    margin: 10%;
+}
+
+
+.ib {
+    display:inline-block;
+    min-height: 50px;
+    overflow:hidden;
+    margin: 1px;
+    padding:0;
+    vertical-align: top;
+	text-align:left;
+}
+
+.i1 {
+    width:1194px;
+}
+.i2 {
+    width:594px;
+}
+.i3 {
+    width:394px
+}
+.i4 {
+    width:294px;
+}
+
+/* Added Custom Sizing for Services*/
+.ic
+{
+    width:260px;
+    margin: 40px;
+}

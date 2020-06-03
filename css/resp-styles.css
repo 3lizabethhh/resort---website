@@ -1,0 +1,171 @@
+@media screen and (max-width:1350px){
+    /*Adjust About Images to Fit 2 In a Row*/
+    #about-middle-img{
+    margin-left: 5vw;
+    margin-right: 15vw; 
+    }
+    
+    /*Adjust About Description to Fit entire Row*/
+   .i3{
+       margin-left: 22px;
+       margin-bottom: 15px;
+       width: 74vw;
+    }
+    
+    /*Adjust Service Box To Fit Closer In a Row*/
+    .ic{
+        width:260px;
+        margin: 8px;
+    }
+    
+    /*Hide larger slogan image*/
+    .sloganImage{
+         display: none;
+    }
+    
+    /*Show smaller slogan image*/
+    .hide{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:1100px){
+    /*Adjust About Images to Fit 2 In a Row*/
+    #about-middle-img{
+    margin-right: 11vw; 
+    }
+    
+    /*Adjust Login/Registration Form to Fit */
+    .form{
+     margin-left:34%;
+}
+   
+}
+
+@media screen and (max-width:1050px){
+  
+    /*Adjust 2 About Images to Fit Better*/
+    #about-middle-img{
+    margin-right: 8vw; 
+    }
+    
+     /*Adjust Login/Registration Form to Fit */
+    .form{
+     margin-left:33%;
+}
+   
+}
+
+@media screen and (max-width:930px){
+  
+    /*Adjust 2 About Images to Fit Better*/
+    #about-middle-img{
+    margin-right: 4vw; 
+    }
+    
+    /*Adjust Login/Registration Form to Fit */
+    .form{
+     margin-left:32%;
+}
+   
+}
+
+@media screen and (max-width:650px){
+    
+    /*Adjust 2 About Images to Fit Better*/
+    #about-middle-img{
+    margin-right: 4vw; 
+    }
+    
+    /*Adjust Login/Registration Form to Fit */
+     .form{
+     margin-left:30%;
+}
+   
+}
+
+
+
+@media screen and (max-width:880px){
+    
+    /*Adjust Banner to Fit Better*/
+    .banner {
+        font-size:11vw;
+         height: auto;
+    }
+
+    /*Adjust 2 About Images to Fit Better by Editing Margins of House Image*/
+    #about-middle-img{
+        margin-left:15vw; 
+    }
+    
+    /*Adjust 2 About Images to Fit Better by Editing both Images*/
+    .i4{
+        width: 394px;
+        margin-left: 15vw; 
+    }
+    
+    /*Adjust Login/Registration Form to Be More Centered */
+       .form{
+     margin-left:27%;
+}
+}
+
+@media screen and (max-width:800px){
+
+    /*Adjust 2 About Images to Fit Better by Editing Margins of House Image*/
+    #about-middle-img{
+        margin-left:10vw; 
+    }
+    
+    /*Adjust 2 About Images to Fit Better by Editing both Images*/
+    .i4{
+        width: 394px;
+        margin-left: 10vw; 
+    }
+    
+     /*Adjust Login/Registration Form to Be More Centered */
+       .form{
+     margin-left:20%;
+    }
+}
+
+@media screen and (max-width:650px){
+
+    /*Adjust About Images to Fit One Image*/
+    #about-middle-img{
+        margin-left:0vw; 
+    }
+    
+    /*Adjust About Description Fit Better*/
+    .i3{
+        width: 70vw;
+    }
+    
+    /*Adjust 2 About Images to Fit Better by Editing both Images*/
+    .i4{
+        width: 394px;
+        margin-left: 0vw; 
+    }
+    
+    
+    /*Adjust Login/Registration Form to Be More Centered */
+    .form{
+     margin-left:5%;
+}
+    
+    /*Adjust Services Boxes To Be More Centered */
+    .ic{
+    width:300px;
+    margin: 8px;
+    margin-left: 40px;
+    }
+   
+    
+}
+
+
+
+
+
